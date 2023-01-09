@@ -28,13 +28,14 @@ a:active{
 /* Top navbar properties and ul that affects all ul items on page */
 header ul {
     list-style: none;
+    font-size: 150%;
 }
 
 .navBar {
     font-family: Arial, sans-serif;
     background-color: #2b4180;
     color: #ffffff;
-    height: 150px;
+    height: 140px;
 
 }
 
@@ -93,6 +94,7 @@ nav {
     margin-left:auto;
     margin-right: auto;
     max-width: 90%;
+    background-color: #2b4180;
 }
 
 
@@ -114,15 +116,63 @@ nav {
     font-size: 350%;
     padding-right: 15px;
     flex: 0 1 25%;
+    background-color: aqua;
 }
 /* Drills into the div tags */
 .infoContainer > div {
     width: 70%;
+    background-color: aquamarine;
 }
 /* selects all the p elements */
 .infoContainer p {
     max-width: 100%;
     padding: 25px 0 25px 0;
+}
+
+.surfReport {
+    background-image: url(../assets/images/wave-gf1278a231_1920.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.ledWall {
+    background-image: url(../assets/images/structure-g5cac55ade_1920.jpg);
+    height: 250px;
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+}
+.calculator {
+    background-image: url(../assets/images/calculator-gae8b618d8_1920.jpg);
+    height: 250px;
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+    }
+.puzzle {
+    background-image: url(../assets/images/puzzle-pieces-g1fd055dfc_1920.jpg);
+    height: 250px;
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+}
+.run {
+    background-image: url(../assets/images/dog-gbd7d6804b_1920.jpg);
+    height: 250px;
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+    }
+.imageContainer {
+    display: flex;
+    height: 550px;
+    justify-content: space-around;
+} 
+
+.imageContainerSubImages {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Flex-box that selects the address tag */
