@@ -10,19 +10,19 @@ body{
     background-color: rgb(227, 242, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
-/* Colors of the link text  */
+/* Colors of the nav link text  */
 a:link{
     color: white;
     text-decoration: none;
 }
 a:visited {
-    color: rgb(75, 172, 211);
+    color: rgb(129, 250, 224);
   }
 a:hover {
     color:rgb(206, 80, 174);
 }
 a:active{
-    color: green;
+    color: rgb(253, 77, 239);
 }
 
 /* Top navbar properties and ul that affects all ul items on page */
@@ -32,7 +32,7 @@ header ul {
 }
 
 .navBar {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #2b4180;
     color: #ffffff;
     height: 140px;
@@ -61,6 +61,7 @@ header ul {
     margin-left: 20px;
 }
 
+/* nav bar flex conatiner  */
 nav {
 
     display: flex;
@@ -115,7 +116,7 @@ nav {
     font-size: 350%;
     padding-right: 15px;
     flex: 0 1 25%;
- 
+    color: #2b4180;
 }
 /* Drills into the div tags */
 .infoContainer > div {
@@ -125,6 +126,10 @@ nav {
 .infoContainer p {
     max-width: 100%;
     padding: 25px 0 25px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b4180;
+    font-size: large;
+
 }
 /* images on the work section  */
 .surfReport {
@@ -150,7 +155,7 @@ nav {
     justify-content: center;
     width: auto;
 }
-/* my items for the container  */
+/* my items for the container which are the images */
 .imagesForFlex {
     height: 250px;
     width: 45%;
@@ -159,6 +164,7 @@ nav {
     border: 2px solid #2b4180;
     margin: 5px;
 } 
+/* the biggest item in the container  */
 .imagesForFlexMain {
     height: 250px;
     width: 90%;
@@ -196,5 +202,10 @@ nav {
 }
 
 .contactBar address a:hover {
-    color: blue;
+    color: #2b4180;
+    
+}
+.contactBar address a:visited {
+    color: rgb(112, 2, 255);
+    
 }
