@@ -18,7 +18,7 @@ At the moment most of the content I have is mostly placeholder due to the fact t
 
 Deployed link: https://migavg.github.io/challenge-2/
 
-<img src="/assets/readMe/readMeScreenshot.png">
+![](assets/readMe/readMeScreenshot1.PNG)
 
 ## Installation
 
